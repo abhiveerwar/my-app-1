@@ -10,6 +10,12 @@
 
 	<dependencies>
 		<dependency>
+			<plugin>
+  			<artifactId>maven-war-plugin</artifactId>
+  			<version>3.0.0</version>
+			</plugin>
+		</dependency>
+		<dependency>
 		    <groupId>org.apache.poi</groupId>
 		    <artifactId>poi</artifactId>
 		    <version>3.7</version>
